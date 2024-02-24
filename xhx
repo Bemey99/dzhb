@@ -5242,6 +5242,7 @@ task.spawn(function()
 
 	task.spawn(function()
 		CreateNotification(5, "ModdedGodSploit has loaded!")
+                CreateNotification(5, "Tysm Modders")
 	end)
 
 	task.spawn(function()
