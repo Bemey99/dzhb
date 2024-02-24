@@ -1,4 +1,4 @@
-local Owner = "djxjeuchrjgheigvj"
+local Owner = "IDontUseAura10"
 
 local LocalPlayer = game.Players.LocalPlayer
 
@@ -5243,6 +5243,8 @@ task.spawn(function()
 	task.spawn(function()
 		CreateNotification(5, "ModdedGodSploit has loaded!")
                 CreateNotification(5, "Tysm Modders")
+                CreateNotification(5, "@ModdedSploitOnTop")
+                CreateNotification(20, "Update when??!?!")
 	end)
 
 	task.spawn(function()
