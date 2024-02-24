@@ -4441,7 +4441,7 @@ task.spawn(function()
 							end
 						end)
 
-						UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.new(1, 1, 1)), ColorSequenceKeypoint.new(1.00, Color3.new(1, 1, 1))}
+						UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.new(1, 1, 1)), ColorSequenceKeypoint.new(1.00, Color3.new(8, 3, 6))}
 					end
 				end
 			end
@@ -4604,7 +4604,7 @@ task.spawn(function()
 			local OldObj = debug.getupvalue(DamageIndicator, 10)
 
 			if Settings.Indicators.Value == true then
-				local Messages = {"ModdedGodSploit", "Best /Client", ":[]", "💀 Fuckerooter"}
+				local Messages = {"ModdedGodSploit", "Best / Client |ModdedGodSploit", ":[]", "💀 Fuckerooter"}
 
 				debug.setupvalue(DamageIndicator, 10, {
 					Create = function(self, obj, ...)
