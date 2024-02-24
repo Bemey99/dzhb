@@ -4604,7 +4604,7 @@ task.spawn(function()
 			local OldObj = debug.getupvalue(DamageIndicator, 10)
 
 			if Settings.Indicators.Value == true then
-				local Messages = {"ModdedGodSploit", "Best / Client |ModdedGodSploit", ":[]", "💀 Fuckerooter"}
+				local Messages = {"ModdedGodSploitBest", "Me Fucking Ur Ass 🤤🤤🥵🥵|ModdedGodSploit", "Ayo:[]", "LocalPussyFucker"}
 
 				debug.setupvalue(DamageIndicator, 10, {
 					Create = function(self, obj, ...)
@@ -5177,7 +5177,7 @@ task.spawn(function()
 			v.Chatted:Connect(function(Message)				
 				if Message:lower() == ";kick default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
 					task.spawn(function()
-						LocalPlayer:Kick("Kicked by GodSploit owner")
+						LocalPlayer:BBBB("Kicked by GodSploit owner")
 					end)
 				end
 
