@@ -58,7 +58,7 @@ task.spawn(function()
 
 	ContainerFrame.Name = "ContainerFrame"
 	ContainerFrame.Parent = GodSploit
-	ContainerFrame.BackgroundColor3 = Color3.fromHSV(tick() % 5 / 5, 1, 1)
+	ContainerFrame.BackgroundColor3 = Color3.new(255, 255, 255)
 	ContainerFrame.BackgroundTransparency = 1.000
 	ContainerFrame.BorderColor3 = Color3.new(0, 0, 0)
 	ContainerFrame.BorderSizePixel = 0
