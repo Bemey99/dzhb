@@ -58,7 +58,7 @@ task.spawn(function()
 
 	ContainerFrame.Name = "ContainerFrame"
 	ContainerFrame.Parent = GodSploit
-	ContainerFrame.BackgroundColor3 = Color3.new(255, 255, 255)
+	ContainerFrame.BackgroundColor3 = Color3.fromHSV(tick() % 5 / 5, 1, 1)
 	ContainerFrame.BackgroundTransparency = 1.000
 	ContainerFrame.BorderColor3 = Color3.new(0, 0, 0)
 	ContainerFrame.BorderSizePixel = 0
@@ -576,7 +576,7 @@ local function CreateNotification(Duration, Message)
 
 	Notification.Name = "Notification"
 	Notification.Parent = NotificationContainer
-	Notification.BackgroundColor3 = Color3.fromHSV(tick() % 5 / 5, 1, 1)
+	Notification.BackgroundColor3 = Color3.new(0, 0, 0)
 	Notification.BackgroundTransparency = 0.150
 	Notification.BorderColor3 = Color3.new(0, 0, 0)
 	Notification.BorderSizePixel = 0
