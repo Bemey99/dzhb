@@ -1610,15 +1610,15 @@ local function ChatSpam()
 	end
 
 	if Randomized == 3 then
-		KillMessage = "I am not cheating, my gaming chair is. | ModdedGodSploit On Top"
+		KillMessage = "3 years and anti cheat still aint updated😂 | ModdedGodSploit On Top"
 	end
 
 	if Randomized == 4 then
-		KillMessage = "3 years now, and the anticheat is still the same. | ModdedGodSploit On Top"
+		KillMessage = "'Sweats' in bedwars are just 9 yrs who have no life ☠️ | ModdedGodSploit On Top"
 	end
 
 	if Randomized == 5 then
-		KillMessage = "Kids in bedwars just keep getting worse. | ModdedGodSploit On Top"
+		KillMessage = "ModdedGodSploit On Top. ModdedGodSploit On Top. | ModdedGodSploit On Top"
 	end
 
 	SendChatMessage(KillMessage)
