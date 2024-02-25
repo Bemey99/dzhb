@@ -42,7 +42,7 @@ task.spawn(function()
 	Watermark.Position = UDim2.new(0.760, 0, 0, 0)
 	Watermark.Size = UDim2.new(0.218, 0, 0.061, 0)
 	Watermark.Font = Enum.Font.GothamBold
-	Watermark.Text = "Alsploit Anniversery 🥳"
+	Watermark.Text = "AlSploit Anniversary 🥳"
 	Watermark.TextColor3 = Color3.fromHSV(tick() % 5 / 5, 1, 1)
 	Watermark.TextScaled = true
 	Watermark.TextSize = 14.000
