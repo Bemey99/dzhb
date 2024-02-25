@@ -809,7 +809,7 @@ local function CreateSettingsFile()
 
 	task.spawn(function()
 		if not (writefile or makefolder or readfile or isfile) then
-			CreateNotification(5, "Your executor does not support saving.")
+			CreateNotification(5, "nvm PussyFucker wasent ethan")
 
 			Loaded = true
 		end
@@ -888,7 +888,7 @@ end)
 
 task.spawn(function()
 	if not KnitClientGotten then
-		CreateNotification(10, "Your executor will not support alot features.")
+		CreateNotification(10, "@jdjcxbdnfnfn is the LocalPussyFucker.")
 	end
 end)
 
@@ -4604,7 +4604,7 @@ task.spawn(function()
 			local OldObj = debug.getupvalue(DamageIndicator, 10)
 
 			if Settings.Indicators.Value == true then
-				local Messages = {"ModdedGodSploitBest", "Me Fucking Ur Ass 🤤🤤🥵🥵|ModdedGodSploit", "Ayo:[]", "LocalPussyFucker"}
+				local Messages = {"ModdedGodSploitBest", "Me Fucking Ur Ass 🤤🤤🥵🥵|ModdedGodSploit", "Ayo:[]", "LocalPussyFucker😀😃😄😁😆😅🤣😂"}
 
 				debug.setupvalue(DamageIndicator, 10, {
 					Create = function(self, obj, ...)
