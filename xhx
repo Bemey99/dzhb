@@ -1598,27 +1598,27 @@ local function ChatSpam()
 	local KillMessage = ""
 
 	if Randomized == 0 then
-		KillMessage = "ModdedGodSploit does more updates than Bedwars 💀. | ModdedGodSploit On Top"
+		KillMessage = "AbyssSploit does more updates than Bedwars 💀. | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit"
 	end
 
 	if Randomized ~= 0 then
-		KillMessage = "SkidenB4 is as bad as how you felt when your dad left you. | ModdedGodSploit On Top"
+		KillMessage = "SkidB4 is аs bаd аs Shаrkbоy Аnd Lаvаgirl CGI | АbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit"
 	end
 
 	if Randomized == 2 then
-		KillMessage = "Switch to MODDEDGodSploit, ez wins. | ModdedGodSploit On Top"
+		KillMessage = "Switch to AbyssSploit, ez wins. | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit"
 	end
 
 	if Randomized == 3 then
-		KillMessage = "3 years and anti cheat still aint updated😂 | ModdedGodSploit On Top"
+		KillMessage = "3 years and anti cheat still aint updated😂 | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit"
 	end
 
 	if Randomized == 4 then
-		KillMessage = "'Sweats' in bedwars are just 9 yrs who have no life ☠️ | ModdedGodSploit On Top"
+		KillMessage = "'Sweats' in bedwars are just 9 yrs who have no life ☠️ | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit"
 	end
 
 	if Randomized == 5 then
-		KillMessage = "ModdedGodSploit On Top. ModdedGodSploit On Top. | ModdedGodSploit On Top"
+		KillMessage = "AbyssSploit On Top. AbyssSploit On Top. | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit"
 	end
 
 	SendChatMessage(KillMessage)
