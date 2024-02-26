@@ -2860,7 +2860,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-	local KillAura, DropDownButton, LayoutOrder, UIGradient = CreateToggle(CombatTab, "KillAura", Settings.KillAura.Value, function(CallBack)
+	local KillAura, DropDownButton, LayoutOrder, UIGradient = CreateToggle(CombatTab, "Killing", Settings.KillAura.Value, function(CallBack)
 		Settings.KillAura.Value = CallBack
 	end)
 
