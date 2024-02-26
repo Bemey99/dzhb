@@ -2860,7 +2860,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-	local KillAura, DropDownButton, LayoutOrder, UIGradient = CreateToggle(CombatTab, "Killing", Settings.KillAura.Value, function(CallBack)
+	local KillAura, DropDownButton, LayoutOrder, UIGradient = CreateToggle(CombatTab, "Killaura", Settings.KillAura.Value, function(CallBack)
 		Settings.KillAura.Value = CallBack
 	end)
 
@@ -3269,7 +3269,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-	local InfiniteFly, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "InfiniteFly", Settings.InfiniteFly.Value, function(CallBack)
+	local InfiniteFly, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "InfHover", Settings.InfiniteFly.Value, function(CallBack)
 		Settings.InfiniteFly.Value = CallBack
 
 		task.spawn(function()
@@ -3329,7 +3329,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-	local HighJump, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "HighJump", Settings.HighJump.Value, function(CallBack)
+	local HighJump, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "HulkJump", Settings.HighJump.Value, function(CallBack)
 		Settings.HighJump.Value = CallBack
 
 		task.spawn(function()
@@ -3684,7 +3684,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-	local Fly, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "Fly", Settings.Fly.Value, function(CallBack)
+	local Fly, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "HoverFly", Settings.Fly.Value, function(CallBack)
 		Settings.Fly.Value = CallBack
 
 		task.spawn(function()
@@ -4528,7 +4528,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-	local GalaxySky, DropDownButton, LayoutOrder, UIGradient = CreateToggle(WorldTab, "GalaxySky", Settings.GalaxySky.Value, function(CallBack)
+	local GalaxySky, DropDownButton, LayoutOrder, UIGradient = CreateToggle(WorldTab, "GalaxySkyTexture", Settings.GalaxySky.Value, function(CallBack)
 		Settings.GalaxySky.Value = CallBack
 
 		if Settings.GalaxySky.Value == true then
@@ -4597,7 +4597,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-	local Indicators, DropDownButton, LayoutOrder, UIGradient = CreateToggle(WorldTab, "Indicators", Settings.Indicators.Value, function(CallBack)
+	local Indicators, DropDownButton, LayoutOrder, UIGradient = CreateToggle(WorldTab, "Damage Indicators", Settings.Indicators.Value, function(CallBack)
 		Settings.Indicators.Value = CallBack
 
 		task.spawn(function()
@@ -4964,7 +4964,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-	local Nuker, DropDownButton, LayoutOrder, UIGradient = CreateToggle(WorldTab, "Nuker", Settings.Nuker.Value, function(CallBack)
+	local Nuker, DropDownButton, LayoutOrder, UIGradient = CreateToggle(WorldTab, "BedNuker", Settings.Nuker.Value, function(CallBack)
 		Settings.Nuker.Value = CallBack
 	end)
 
