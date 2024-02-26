@@ -1530,27 +1530,27 @@ local function AutoToxic(Player)
 	local KillMessage = ""					
 
 	if Randomized == 0 then
-		KillMessage = "You are so bad u died. L" .. Player.Name .. " | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "Yоu аrе ѕо bаd u diеd L" .. Player.Name .. " | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	if Randomized ~= 0 then
-		KillMessage = "I could probably win without cheats. L" .. Player.Name .. " | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "I could рrоbаblу win withоut сhеаtѕ. L" .. Player.Name .. " | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	if Randomized == 2 then
-		KillMessage = "Clowns are the only ones we kill. L" .. Player.Name .. " | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "Сlоwnѕ аrе thе оnlу оnеѕ wе kill. L" .. Player.Name .. " | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	if Randomized == 3 then
-		KillMessage = "Rats. Imagine dying in a block game. L" .. Player.Name .. " | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "Rаtѕ. іmаgіnе dуіng іn а blосk gаmе. L" .. Player.Name .. " | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	if Randomized == 4 then
-		KillMessage = "I hack for fun. Too bad your fun is ruined. L" .. Player.Name .. " | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "і hасk fоr fun tо bаd уоur funѕ ruined. L" .. Player.Name .. " | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	if Randomized == 5 then
-		KillMessage = "I ruined a good day for a good reason. L" .. Player.Name .. " | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "і ruіnеd а gооd dау fоr а gооd rеаѕоn. L" .. Player.Name .. " | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	SendChatMessage(KillMessage)
