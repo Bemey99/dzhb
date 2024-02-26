@@ -1598,27 +1598,27 @@ local function ChatSpam()
 	local KillMessage = ""
 
 	if Randomized == 0 then
-		KillMessage = "AbyssSploit does more updates than Bedwars 💀. | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "АbуѕѕЅрlоit dоеѕ mоrе uрdаtеѕ thаn Веdwаrѕ 💀 | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	if Randomized ~= 0 then
-		KillMessage = "SkidB4 is аs bаd аs Shаrkbоy Аnd Lаvаgirl CGI | АbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "ЅkіdВ4 іѕ аѕ bаd аѕ Ѕhаrkbоу аnd Lаvаgіrl СGІ | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	if Randomized == 2 then
-		KillMessage = "Switch to AbyssSploit, ez wins. | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "ѕwіtсh tо АbуѕѕЅрlоit, еz wіnѕ | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	if Randomized == 3 then
-		KillMessage = "3 years and anti cheat still aint updated😂 | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	if Randomized == 4 then
-		KillMessage = "'Sweats' in bedwars are just 9 yrs who have no life ☠️ | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "'Ѕwеаtѕ' іn bеdwаrѕ аrе just 9уr оldѕ wіth nо lіfе | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	if Randomized == 5 then
-		KillMessage = "AbyssSploit On Top. AbyssSploit On Top. | AbyssSploit On Top | Аby⁥⁥⁥⁥⁥ѕѕ.⁥⁥⁥⁥⁥cо⁥⁥⁥⁥⁥m/Ѕр⁥⁥⁥⁥⁥lоit | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	SendChatMessage(KillMessage)
