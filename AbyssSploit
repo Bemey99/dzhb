@@ -770,7 +770,7 @@ local function CreateSettingsFile()
 		ChatSpammer = {Speed = 50, KeyBind = "..."},
 		AcDisabler = {KeyBind = "..."},
 		FpsBooster = {KeyBind = "..."},
-		Indicators = {KeyBind = "..."}, Mostly Modded🥇,
+		Indicators = {KeyBind = "..."},
 		AutoReport = {KeyBind = "..."},
 		NoNameTag = {KeyBind = "..."},
 		AntiStaff = {Kick = false, KeyBind = "..."},
