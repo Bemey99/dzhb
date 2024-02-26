@@ -888,7 +888,7 @@ end)
 
 task.spawn(function()
 	if not KnitClientGotten then
-		CreateNotification(10, "@jdjcxbdnfnfn is the LocalPussyFucker.")
+		CreateNotification(10, "bedwars😄😀😃😁")
 	end
 end)
 
