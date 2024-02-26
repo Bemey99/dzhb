@@ -770,7 +770,7 @@ local function CreateSettingsFile()
 		ChatSpammer = {Speed = 50, KeyBind = "..."},
 		AcDisabler = {KeyBind = "..."},
 		FpsBooster = {KeyBind = "..."},
-		Indicators = {KeyBind = "..."},
+		Indicators = {KeyBind = "..."}, Mostly Modded🥇,
 		AutoReport = {KeyBind = "..."},
 		NoNameTag = {KeyBind = "..."},
 		AntiStaff = {Kick = false, KeyBind = "..."},
@@ -3269,7 +3269,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-	local InfiniteFly, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "InfHover", Settings.InfiniteFly.Value, function(CallBack)
+	local InfiniteFly, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "InfHoverFly", Settings.InfiniteFly.Value, function(CallBack)
 		Settings.InfiniteFly.Value = CallBack
 
 		task.spawn(function()
@@ -3579,7 +3579,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-	local NoFall, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "NoFall", Settings.NoFall.Value, function(CallBack)
+	local NoFall, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "NoFallDamage", Settings.NoFall.Value, function(CallBack)
 		Settings.NoFall.Value = CallBack
 	end)
 
@@ -3622,7 +3622,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-	local Speed, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "Speed", Settings.Speed.Value, function(CallBack)
+	local Speed, DropDownButton, LayoutOrder, UIGradient = CreateToggle(BlatantTab, "7+ Flash", Settings.Speed.Value, function(CallBack)
 		Settings.Speed.Value = CallBack
 	end)
 
