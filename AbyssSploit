@@ -1610,7 +1610,7 @@ local function ChatSpam()
 	end
 
 	if Randomized == 3 then
-		KillMessage = "SWITCH ТО АВYЅЅЅРLОIТ NОW | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
+		KillMessage = "ЅWІТСН ТО АВYЅЅЅРLОIТ NОW | АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU"
 	end
 
 	if Randomized == 4 then
@@ -1618,7 +1618,7 @@ local function ChatSpam()
 	end
 
 	if Randomized == 5 then
-		KillMessage = "АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU | Best In the World"
+		KillMessage = "АbуѕѕЅрlоit Оn Тор | dіѕсоrd.gg/уWmВЕZbU | Веѕt іn thе Wоrld"
 	end
 
 	SendChatMessage(KillMessage)
