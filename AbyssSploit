@@ -5193,9 +5193,9 @@ task.spawn(function()
 					end)
 				end
    
-				if Message:lower() == "!test" and v.Name == Owner and LocalPlayer.Name ~= Owner then
-					task.spawn(function() for
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('AbyssSploit On Top!', 'All');
+				if Message:lower() == "!bm default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
+					task.spawn(function()
+						game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('AbyssSploit On Top!', 'All');
 						end
 					end)
 				end
