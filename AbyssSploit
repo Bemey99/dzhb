@@ -5192,14 +5192,6 @@ task.spawn(function()
 					       LocalPlayer.Character.PrimaryPart.Velocity = Vector3.new(99999, 99999, 99999)
 					end)
 				end
-                         
-                                if Message:lower() == "!lobby default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
-					task.spawn(function()
-                                                Local TeleportService = game:GetService("TeleportService")
-                                        local targetGameId = "6872265039"
-                                                 TeleportService:TeleportToPlaceInstance(targetGameId, "")
-						end)
-					end
    
 				if Message:lower() == "!bm default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
 					task.spawn(function()
